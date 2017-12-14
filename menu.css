@@ -39,7 +39,9 @@ margin-bottom: 100px;
    background-repeat: no-repeat;
    clear: both;
 }
-
+.image-block img{
+  width: 50%;
+}
 .image-up, .image-down, {
    border: 0;
    margin: 0;
@@ -74,7 +76,7 @@ margin-bottom: 100px;
   position: absolute;
   height:100%;
   margin-left: 45%;
-  font-size: 30px;
+  font-size: 17px;
   padding: 30px 310px 450px;
 }
 
@@ -93,17 +95,18 @@ h1, h2, h3{
 }*/
 
 #leftp3{
+  clear: both;
   color: rgb(233, 189, 122);
   position: absolute;
   height:100%;
-  margin-left: 51%;
-  font-size: 30px;
-  padding: 1200px 400px 450px;
+  margin-left: 45%;
+  font-size: 17px;
+  padding: 800px 400px 450px;
 
 }
 #downp{
   font-family: "Lato", sans-serif;
-  font-size: 42px;
+  /*font-size: 42px;*/
   color: rgb(233, 189, 122);
   position: absolute;
   height:100%;
@@ -146,7 +149,10 @@ margin-left: 130px;
 top: 1000px;
 
 }
+#img1 img{
+  width: 300px;
 
+}
 
 #img3{
   /*border-style: solid;
@@ -159,7 +165,7 @@ top: 800px;
 #footer{
   text-align: center;
   font-family: "Lato", sans-serif;
-  font-size: 42px;
+  /*font-size: 42px;*/
   color: rgb(233, 189, 122);
   padding: 2350px 800px 450px;
   letter-spacing: 5px;
